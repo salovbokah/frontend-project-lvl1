@@ -5,7 +5,7 @@
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
-**At that moment only one game is available, the rest four is in progress**
+_At that moment only one game is available, the rest four is in progress_
 
 **Games:**
 
@@ -18,6 +18,9 @@ _This game is for the Node.js v16.8.0 and later._
 **For installation:**
 
 - Clone this repository
+```shell
+$ git clone git@github.com:salovbokah/frontend-project-lvl1.git
+```
 
 - Run the command: _make install_
 
@@ -26,4 +29,5 @@ _This game is for the Node.js v16.8.0 and later._
 </div>
 
 To run the game: _brain-even_
+
 [![aciicast](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy.svg)](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy)
