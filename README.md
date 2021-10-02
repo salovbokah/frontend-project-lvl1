@@ -13,6 +13,8 @@ _At that moment only one game is available, the rest four is in progress_
 
 - <a href="brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
 
+- <a href="#brain-gcd">Determination of the greatest common divisor.</a>
+
 ## Installation
 
 _This game is for the Node.js v16.8.0 and later._
@@ -36,8 +38,16 @@ To run the game: _brain-even_
 
 <div id="brain-calc">
     <h2>Calculator. Arithmetic expressions to be evaluated.</h2>
+</div>
 
 To run the game: _brain-calc_
 
 [![asciicast](https://asciinema.org/a/1vlEtiN03IF7bp158ExU3Qy1h.svg)](https://asciinema.org/a/1vlEtiN03IF7bp158ExU3Qy1h)
 
+<div id="brain-gcd">
+    <h2>Determination of the greatest common divisor.</h2>
+</div>
+
+To run the game: _brain-gcd_
+
+[![asciicast](https://asciinema.org/a/ps1ushVZ6pLffUfXXp23Nr7xf.svg)](https://asciinema.org/a/ps1ushVZ6pLffUfXXp23Nr7xf)
