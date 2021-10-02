@@ -32,12 +32,12 @@ $ git clone git@github.com:salovbokah/frontend-project-lvl1.git
 
 To run the game: _brain-even_
 
-[![aciicast](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy.svg)](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy)
+[![asciicast](https://asciinema.org/a/9hRiBN0RREppPzibLkL9RbuAt.svg)](https://asciinema.org/a/9hRiBN0RREppPzibLkL9RbuAt)
 
 <div id="brain-calc">
     <h2>Calculator. Arithmetic expressions to be evaluated.</h2>
 
 To run the game: _brain-calc_
 
-[![asciicast](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy.svg)](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy)
+[![asciicast](https://asciinema.org/a/1vlEtiN03IF7bp158ExU3Qy1h.svg)](https://asciinema.org/a/1vlEtiN03IF7bp158ExU3Qy1h)
 
