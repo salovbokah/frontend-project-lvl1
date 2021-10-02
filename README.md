@@ -5,13 +5,13 @@
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
-_At that moment only one game is available, the rest four is in progress_
+_At that moment only __2__ games is available and the rest __3__ is in progress_
 
 **Games:**
 
 - <a href="#brain-even">Determination of an even number.</a>
 
-- <a href="brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
+- <a href="#brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
 
 - <a href="#brain-gcd">Determination of the greatest common divisor.</a>
 
