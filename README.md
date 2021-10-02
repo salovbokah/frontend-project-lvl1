@@ -11,7 +11,7 @@ _At that moment only __2__ games is available and the rest __3__ is in progress_
 
 - <a href="#brain-even">Determination of an even number.</a>
 
-- <a href="brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
+- <a href="#brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
 
 ## Installation
 
