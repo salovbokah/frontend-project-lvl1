@@ -36,6 +36,7 @@ To run the game: _brain-even_
 
 <div id="brain-calc">
     <h2>Calculator. Arithmetic expressions to be evaluated.</h2>
+</div>
 
 To run the game: _brain-calc_
 
