@@ -11,6 +11,8 @@ _At that moment only one game is available, the rest four is in progress_
 
 - <a href="#brain-even">Determination of an even number.</a>
 
+- <a href="brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
+
 ## Installation
 
 _This game is for the Node.js v16.8.0 and later._
@@ -31,3 +33,11 @@ $ git clone git@github.com:salovbokah/frontend-project-lvl1.git
 To run the game: _brain-even_
 
 [![aciicast](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy.svg)](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy)
+
+<div id="brain-calc">
+    <h2>Calculator. Arithmetic expressions to be evaluated.</h2>
+
+To run the game: _brain-calc_
+
+[![asciicast](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy.svg)](https://asciinema.org/a/QmYTXQsLnlBnpkZ6o60QivVdy)
+
