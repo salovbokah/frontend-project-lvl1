@@ -5,7 +5,7 @@
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
-_At that moment only __3__ games is available and the rest __2__ is in progress_
+_At that moment only __4__ games is available and the __last one__ is in progress_
 
 **Games:**
 
@@ -14,6 +14,8 @@ _At that moment only __3__ games is available and the rest __2__ is in progress_
 - <a href="#brain-calc">Calculator. Arithmetic expressions to be evaluated.</a>
 
 - <a href="#brain-gcd">Determination of the greatest common divisor.</a>
+
+- <a href="#brain-progression">Progression. Finds missing numbers in a sequence of numbers.</a>
 
 ## Installation
 
@@ -51,3 +53,10 @@ To run the game: _brain-calc_
 To run the game: _brain-gcd_
 
 [![asciicast](https://asciinema.org/a/ps1ushVZ6pLffUfXXp23Nr7xf.svg)](https://asciinema.org/a/ps1ushVZ6pLffUfXXp23Nr7xf)
+
+<div id="brain-progression">
+    <h2>Progression. Finds missing numbers in a sequence of numbers.</h2>
+</div>
+To run the game: _brain-progression_
+
+[![asciicast](https://asciinema.org/a/fxRCtzNFoktq8QIgDkZr9jzbA.svg)](https://asciinema.org/a/fxRCtzNFoktq8QIgDkZr9jzbA)
