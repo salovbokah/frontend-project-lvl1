@@ -11,12 +11,10 @@ const getProgression = (start, step, length) => {
 
 const description = 'What number is missing in the progression?';
 
-const getRandomProgressionItem = (min = 5, max = 10) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+const getRandomProgressionItem = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const generateQuestionAnswer = () => {
-  const itemsCount = getRandomProgressionItem();
+  const itemsCount = getRandomProgressionItem(5, 10);
 
   const progressions = getProgression(getRandomInt(), getRandomInt(), itemsCount);
 
