@@ -25,7 +25,7 @@ _This game is for the Node.js v16.8.0 and later._
 
 - Clone this repository
 ```shell
-$ git clone git@github.com:salovbokah/frontend-project-lvl1.git
+https://github.com/salovbokah/frontend-project-lvl1.git
 ```
 
 - Run the command: _make install_
