@@ -5,8 +5,6 @@
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
-_At that moment only __4__ games is available and the __last one__ is in progress_
-
 **Games:**
 
 - <a href="#brain-even">Determination of an even number.</a>
@@ -16,6 +14,8 @@ _At that moment only __4__ games is available and the __last one__ is in progres
 - <a href="#brain-gcd">Determination of the greatest common divisor.</a>
 
 - <a href="#brain-progression">Progression. Finds missing numbers in a sequence of numbers.</a>
+
+- <a href="#brain-prime">Determination of a prime number.</a>
 
 ## Installation
 
@@ -29,6 +29,8 @@ $ git clone git@github.com:salovbokah/frontend-project-lvl1.git
 ```
 
 - Run the command: _make install_
+
+- Run the game command (e.g. _brain-progression_)
 
 <div id="brain-even">
     <h2>Determination of an even number.</h2>
@@ -57,6 +59,15 @@ To run the game: _brain-gcd_
 <div id="brain-progression">
     <h2>Progression. Finds missing numbers in a sequence of numbers.</h2>
 </div>
+
 To run the game: _brain-progression_
 
 [![asciicast](https://asciinema.org/a/fxRCtzNFoktq8QIgDkZr9jzbA.svg)](https://asciinema.org/a/fxRCtzNFoktq8QIgDkZr9jzbA)
+
+<div id="brain-prime">
+    <h2>Determination of a prime number.</h2>
+</div>
+
+To run the game: _brain-prime_
+
+[![asciicast](https://asciinema.org/a/VBzrCAD2fVjZvojlUUW7GuuUe.svg)](https://asciinema.org/a/VBzrCAD2fVjZvojlUUW7GuuUe)
