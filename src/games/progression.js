@@ -3,7 +3,7 @@ import startNewGame from '../index.js';
 
 const getProgression = (start, step, length) => {
   const progressions = [];
-  for (let i = 0; i < length; i++) {
+  for (let i = 0; i < length; i += 1) {
     progressions.push(start + step * i);
   }
   return progressions;
@@ -11,7 +11,9 @@ const getProgression = (start, step, length) => {
 
 const description = 'What number is missing in the progression?';
 
-const getRandomProgressionItem = (min = 5, max = 10) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomProgressionItem = (min = 5, max = 10) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
 
 const generateQuestionAnswer = () => {
   const itemsCount = getRandomProgressionItem();
