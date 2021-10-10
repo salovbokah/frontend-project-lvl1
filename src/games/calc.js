@@ -10,33 +10,24 @@ const calculateExpression = (firstNumber, operator, secondNumber) => {
 
   switch (operator) {
     case '+':
-      correctAnswer = firstNumber + secondNumber;
-      break;
+      return correctAnswer = firstNumber + secondNumber;
 
     case '-':
-      correctAnswer = firstNumber - secondNumber;
-      break;
+      return correctAnswer = firstNumber - secondNumber;
 
     case '*':
-      correctAnswer = firstNumber * secondNumber;
-      break;
+      return correctAnswer = firstNumber * secondNumber;
 
     default:
-      correctAnswer = null;
+      throw new Error(`\\operation ${operation} is not supported\\`);
   }
-
-  return correctAnswer;
 };
 
 const generateQuestionAnswer = () => {
-  const fromNumber = 0;
+  const firstNumber = getRandomInt(0, 100);
+  const secondNumber = getRandomInt(0, 100);
 
-  const firstNumber = getRandomInt(fromNumber);
-  const secondNumber = getRandomInt(fromNumber);
-
-  const toNumber = operators.length - 1;
-
-  const operator = operators[getRandomInt(fromNumber, toNumber)];
+  const operator = operators[getRandomInt(0, operators.length - 1)];
 
   const question = `${firstNumber} ${operator} ${secondNumber}`;
   const answer = calculateExpression(firstNumber, operator, secondNumber).toString();
