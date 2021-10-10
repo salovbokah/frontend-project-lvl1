@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ebe82dd3676c552e6468/maintainability)](https://codeclimate.com/github/salovbokah/frontend-project-lvl1/maintainability)
 [![Actions Status](https://github.com/salovbokah/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/salovbokah/frontend-project-lvl1/actions)
 [![github-actions-linter](https://github.com/salovbokah/frontend-project-lvl1/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/salovbokah/frontend-project-lvl1/actions/workflows/nodejs-ci.yml)
 
@@ -29,6 +29,8 @@ https://github.com/salovbokah/frontend-project-lvl1.git
 ```
 
 - Run the command: _make install_
+
+- Run the command: _sudo npm link_
 
 - Run the game command (e.g. _brain-progression_)
 
