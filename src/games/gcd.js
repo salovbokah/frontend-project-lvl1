@@ -3,21 +3,19 @@ import startNewGame from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const calculatedGCD = (firstNumber, secondNumber) => {
-  if (!secondNumber) {
+const calculateGCD = (firstNumber, secondNumber) => {
+  if (secondNumber === 0) {
     return firstNumber;
   }
-  return calculatedGCD(secondNumber, firstNumber % secondNumber);
+  return calculateGCD(secondNumber, firstNumber % secondNumber);
 };
 
 const generateQuestionAnswer = () => {
-  const fromNumber = 0;
-
-  const firstNumber = getRandomInt(fromNumber);
-  const secondNumber = getRandomInt(fromNumber);
+  const firstNumber = getRandomInt(0, 100);
+  const secondNumber = getRandomInt(0, 100);
 
   const question = `${firstNumber} ${secondNumber}`;
-  const answer = calculatedGCD(firstNumber, secondNumber).toString();
+  const answer = calculateGCD(firstNumber, secondNumber).toString();
 
   return [question, answer];
 };
