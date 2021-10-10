@@ -10,16 +10,16 @@ const calculateExpression = (firstNumber, operator, secondNumber) => {
 
   switch (operator) {
     case '+':
-      return correctAnswer = firstNumber + secondNumber;
-
+      correctAnswer = firstNumber + secondNumber;
+      return correctAnswer;
     case '-':
-      return correctAnswer = firstNumber - secondNumber;
-
+      correctAnswer = firstNumber - secondNumber;
+      return correctAnswer;
     case '*':
-      return correctAnswer = firstNumber * secondNumber;
-
+      correctAnswer = firstNumber * secondNumber;
+      return correctAnswer;
     default:
-      throw new Error(`\\operation ${operation} is not supported\\`);
+      throw new Error(`\\operation ${operator} is not supported\\`);
   }
 };
 
