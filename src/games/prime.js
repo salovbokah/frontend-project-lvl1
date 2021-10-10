@@ -17,7 +17,7 @@ const isPrime = (num) => {
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const generateQuestionAnswer = () => {
-  const question = getRandomInt();
+  const question = getRandomInt(0, 100);
   const answer = isPrime(question) ? 'yes' : 'no';
 
   return [question, answer];
