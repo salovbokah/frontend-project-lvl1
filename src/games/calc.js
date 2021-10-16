@@ -6,20 +6,15 @@ const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const calculateExpression = (firstNumber, operator, secondNumber) => {
-  let correctAnswer;
-
   switch (operator) {
     case '+':
-      correctAnswer = firstNumber + secondNumber;
-      return correctAnswer;
+      return firstNumber + secondNumber;
     case '-':
-      correctAnswer = firstNumber - secondNumber;
-      return correctAnswer;
+      return firstNumber - secondNumber;
     case '*':
-      correctAnswer = firstNumber * secondNumber;
-      return correctAnswer;
+      return firstNumber * secondNumber;
     default:
-      throw new Error(`\\operation ${operator} is not supported\\`);
+      throw new Error(`Operation ${operator} is not supported`);
   }
 };
 
