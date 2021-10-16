@@ -17,15 +17,15 @@ const generateQuestionAnswer = () => {
   const hiddenItem = getRandomInt(1, progressionLength - 1);
 
   const getHiddenItem = (arr, index) => {
-    const newArr = [];
+    const result = [];
     for (let item = 0; item < arr.length; item += 1) {
       if (arr[item] === arr[index]) {
-        newArr.push('..');
+        result.push('..');
       } else {
-        newArr.push(arr[item]);
+        result.push(arr[item]);
       }
     }
-    return newArr.join(' ');
+    return result.join(' ');
   };
 
   const answer = progressions[hiddenItem].toString();
