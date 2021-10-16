@@ -1,7 +1,10 @@
 import getRandomInt from '../utilities.js';
 import startNewGame from '../index.js';
 
-const getProgression = (start, step, length) => {
+const description = 'What number is missing in the progression?';
+const progressionLength = getRandomInt(5, 10);
+
+const getProgression = (start, step, length = progressionLength) => {
   const progressions = [];
   for (let i = 0; i < length; i += 1) {
     progressions.push(start + step * i);
@@ -9,20 +12,25 @@ const getProgression = (start, step, length) => {
   return progressions;
 };
 
-const description = 'What number is missing in the progression?';
-
 const generateQuestionAnswer = () => {
-  const itemsCount = getRandomInt(5, 10);
+  const progressions = getProgression(getRandomInt(0, 100), getRandomInt(0, 100));
+  const hiddenItem = getRandomInt(1, progressionLength - 1);
 
-  const progressions = getProgression(getRandomInt(0, 100), getRandomInt(0, 100), itemsCount);
-
-  const hiddenItem = getRandomInt(1, itemsCount - 1);
+  const getHiddenItem = (arr, index) => {
+    const newArr = [];
+    for (let item = 0; item < arr.length; item += 1) {
+      if (arr[item] === arr[index]) {
+        newArr.push('..');
+      } else {
+        newArr.push(arr[item]);
+      }
+    }
+    return newArr.join(' ');
+  };
 
   const answer = progressions[hiddenItem].toString();
 
-  progressions[hiddenItem] = '..';
-
-  const question = progressions.join(' ');
+  const question = getHiddenItem(progressions, hiddenItem);
 
   return [question, answer];
 };
