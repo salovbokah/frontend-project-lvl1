@@ -25,7 +25,7 @@ const generateQuestionAnswer = () => {
   const operator = operators[getRandomInt(0, operators.length - 1)];
 
   const question = `${firstNumber} ${operator} ${secondNumber}`;
-  const answer = calculateExpression(firstNumber, operator, secondNumber).toString();
+  const answer = calculateExpression(firstNumber, secondNumber, operator).toString();
 
   return [question, answer];
 };
