@@ -12,25 +12,25 @@ const getProgression = (start, step, length = progressionLength) => {
   return progressions;
 };
 
+const generateQuestion = (arr, index) => {
+  const result = [];
+  for (let item = 0; item < arr.length; item += 1) {
+    if (arr[item] === arr[index]) {
+      result.push('..');
+    } else {
+      result.push(arr[item]);
+    }
+  }
+  return result.join(' ');
+};
+
 const generateQuestionAnswer = () => {
   const progressions = getProgression(getRandomInt(0, 100), getRandomInt(0, 100));
   const hiddenItem = getRandomInt(1, progressionLength - 1);
 
-  const getHiddenItem = (arr, index) => {
-    const result = [];
-    for (let item = 0; item < arr.length; item += 1) {
-      if (arr[item] === arr[index]) {
-        result.push('..');
-      } else {
-        result.push(arr[item]);
-      }
-    }
-    return result.join(' ');
-  };
-
   const answer = progressions[hiddenItem].toString();
 
-  const question = getHiddenItem(progressions, hiddenItem);
+  const question = generateQuestion(progressions, hiddenItem);
 
   return [question, answer];
 };
