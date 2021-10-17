@@ -5,7 +5,7 @@ const description = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const calculateExpression = (firstNumber, operator, secondNumber) => {
+const calculateExpression = (firstNumber, secondNumber, operator) => {
   switch (operator) {
     case '+':
       return firstNumber + secondNumber;
